@@ -21,7 +21,6 @@ body {
 }
 
 .container {
-    /* border: 1px solid red; */
     height: auto;
     max-height: 750px;
     width: 500px;
@@ -35,7 +34,6 @@ body {
 }
 
 .header {
-    /* border: 1px solid blue; */
     width: 100%;
     text-align: center;
     color: #000;
@@ -58,7 +56,6 @@ body {
 }
 
 .img-field {
-    /* border: 1px solid green; */
     width: 400px;
     height: 200px;
     display: flex;
