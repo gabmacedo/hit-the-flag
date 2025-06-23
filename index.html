@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/imgs/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/imgs/favicon-16x16.png">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Hit the Flag | Gabriel Macedo</title>
+  </head>
+
+  <body>
+    <div class="circle"></div>
+    <div class="circle2"></div>
+    <div class="container">
+        <div class="header">
+            <span class="hit">Hit </span> 
+            <span> the Flag!</span>
+            <p id="attempts-field"></p>
+        </div>
+
+        <div class="img-field">
+          <img id="flagInput" src="" width="300" alt="Bandeira" />
+        </div>
+
+        <p id="result"></p>
+
+        <div class="input-fields">
+          <input type="text" id="country-input" placeholder="Digite um país..." />
+          <div class="btn-fields">
+              <button id="send-flag">Enviar</button>
+              <button id="new-game">Novo Jogo</button>
+          </div>
+        </div>
+
+        <ul class="country-list"></ul>
+
+    </div>
+
+    <script src="./assets/main.js"></script>
+  </body>
+</html>
